@@ -8,7 +8,7 @@ services:
     volumes:
       - ./backend:/var/www/html
     ports:
-      - "8000:8000"
+      - "8001:8000"
     environment:
       MONGODB_URI: "mongodb://devroot:devpass@mongo:27017/laravel_app?authSource=admin"
       MONGODB_DATABASE: "laravel_app"
